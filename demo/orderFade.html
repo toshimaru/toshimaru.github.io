@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery order fade</title>
+<style type="text/css">
+.fadediv {
+	display: none;
+	font-size: 5em;
+	text-align: center;
+	float: left;
+	background-color: #eee;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+</style>
+</head>
+<body>
+	<div class="fadediv">1</div>
+	<div class="fadediv">2</div>
+	<div class="fadediv">3</div>
+	<div class="fadediv">4</div>
+	<div class="clearfix"></div>
+	<div class="fadediv">5</div>
+	<div class="fadediv">6</div>
+	<div class="fadediv">7</div>
+	<div class="fadediv">8</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		var orderFade = function() {
+			$("div:hidden:first").fadeIn('fast', function () {
+				orderFade()
+			});
+		}
+		orderFade();
+	})
+	</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-[toshimaru.github.com](http://toshimaru.github.com)
-======
+[toshimaru.github.com](http://toshimaru.net/)
+=====
 
 My github page.
