@@ -1,0 +1,23 @@
+body {
+	background-color: #009ECF;
+}
+
+#row {
+	margin:20px 0px;
+} 
+
+#main {
+	padding: 15px;
+	background-color: #eee;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+.tweet {
+	padding: 10px 0px;
+}
+
+.twitImg {
+	width: 8%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>search tweet</title>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="container">
+	<div id="row" class="row">
+		<div id="main" class="span8 offset2">
+			<form class="form-search">
+				<legend>Twitter Search</legend>
+				<input id="query" type="text" class="input-large search-query" placeholder="query...">
+				<button type="submit" class="btn">Search</button>
+			</form>
+
+			<div id="tweets">
+				<!-- tweet template insert here -->
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/html" id="tweetsTemplate">
+<table class="table table-hover">
+  <tbody>
+    {{#results}}
+    <tr class="twitTr" style="display:none;">
+      <td class="twitImg"><img src="{{profile_image_url}}"></td>
+      <td>
+      	<a href="https://twitter.com/{{from_user}}">@{{from_user}}</a><br>
+      	{{text}}
+      </td>
+    </tr>
+    {{/results}}
+  </tbody>
+</table>
+</script>
+
+
+<script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+// リミット確認
+// http://twitter.com/account/rate_limit_status.xml
+var outputTweet = function (json) {
+	var template = Hogan.compile($("#tweetsTemplate").html());
+	$("#tweets").html(template.render(json));
+	$('.twitTr').fadeIn('slow');
+};
+
+$(function () {
+	$('button').click(function() {
+		var q = $('#query').val();
+		var url = 'http://search.twitter.com/search.json?q=' + encodeURI(q) + '&rpp=10';
+
+		$.getJSON(url + "&callback=?", function(data) {
+		    outputTweet(data);
+		});
+
+		return false;
+	});
+});
+</script>
+</body>
+</html>
