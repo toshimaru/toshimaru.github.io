@@ -37,19 +37,6 @@ header,hgroup,footer,aside,nav,article,section,time {display:block;}
     font-style: normal;
 }
 
-
-body {
-    background-color:#F2F2F2;
-    color:{color:Body};
-    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-    font-size:.875em; /* 14px */
-}
-
-a {
-    color:{color:Links};
-    text-decoration:underline;
-}
-
 .header-bg {
     left:0;
     height:192px;
@@ -66,26 +53,14 @@ a {
     z-index:1;
 }
 
-    .cw {
-        bottom:30px;
-        color:{color:Headers} !important;
-        font-family:'Cabin Sketch',"Arial Narrow";
-        font-size:1.429em;
-        letter-spacing:-.05em;
-        position:absolute;
-        text-align:center;
-        text-transform:uppercase;
-        width:880px;
+.cw a {
+    color:#1e1e1e !important;
+    text-decoration:none;
+}
+
+    .cw a:hover {
+        text-decoration:underline;
     }
-    
-        .cw a {
-            color:#1e1e1e !important;
-            text-decoration:none;
-        }
-        
-            .cw a:hover {
-                text-decoration:underline;
-            }
 
 #page_header {
     padding:60px 0 40px 160px;
@@ -103,14 +78,6 @@ a {
             padding-left:160px;
         }
 
-        article header h1 a {
-            color:{color:Headers} !important;
-            text-decoration:none;
-        }
-        
-        article header h1 a:hover {
-        }
-
 header#page_header hgroup {
     margin-left:-50px;
     min-height:65px;
@@ -126,14 +93,6 @@ header#page_header hgroup {
         line-height:1em;
         text-transform:uppercase;
     }
-
-        header#page_header hgroup h1 a {
-            color:{color:Headers};
-            filter:dropshadow(color=#fff,offX=0,offY=1);
-            text-shadow:0 1px 2px #fff;
-            text-decoration:none;
-            /* -webkit-text-stroke:1px black; */
-        }
 
     header#page_header hgroup h2 {
         display:inline-block;
@@ -301,13 +260,6 @@ section#search_results {
         padding:3px 10px;
     }
 
-    section#search_results h1,section#filed_under h1 {
-        color:{color:Headers};
-        font-family:'Cabin Sketch',"Arial Narrow";
-        font-size:1.429em;
-        line-height:1em;
-        text-transform:uppercase;
-    }
     
     section#search_results h1 {
         padding-bottom:5px;
@@ -471,12 +423,6 @@ section#fans {
             width:20px;
         }
         
-        section#fans li a {
-            color:{color:PostInfo};
-            font-size:.786em;
-            text-decoration:none;
-            vertical-align:middle;
-        }
 
 
 article header aside.sms {
@@ -516,12 +462,6 @@ section.share {
     width:700px;
 }
         
-        #post_column .body a {
-            color:{color:Links};
-        }
-        
-        #post_column a:hover {
-        }
 
     div#articles {
     }
@@ -632,10 +572,6 @@ section.share {
             div.editbox ul.mini_commands {
                 margin-top:0;
             }
-            
-                ul.mini_commands li a {
-                    color:{color:Links};
-                }
             
             article:hover div.editbox {
                 visibility:visible;
