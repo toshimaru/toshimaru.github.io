@@ -246,7 +246,6 @@ section#search_results {
         margin-top:5px;
         padding:3px 10px;
     }
-
     
     section#search_results h1 {
         padding-bottom:5px;
@@ -343,7 +342,6 @@ text-decoration:none;
         background:url(/images/feed-icon-14x14.png) no-repeat -1px -1px;
     }
 
-
 section#statistics {
     font-size: 10px;
 }
@@ -356,15 +354,12 @@ section#tags ul {
 }
 
     section#tags li {
-        background:#7C7067;
+        background:#FFD7F5;
         border-top:solid 1px rgba(0,0,0,.5);
-        border-bottom:solid 1px rgba(0,0,0,.25);
+        border-bottom:solid 2px rgba(0,0,0,.25);
         color:#fff;
         display:inline;
-    }
-    
-    section#tags li a {
-        color:#fff;
+        border-radius: 8px;
     }
     
     section#tags li.selected a {
@@ -404,8 +399,6 @@ section#fans {
             vertical-align:middle;
             width:20px;
         }
-        
-
 
 article header aside.sms {
     font-size: 11px;
@@ -516,7 +509,6 @@ section.share {
                     width:40px;
                     vertical-align:middle;
                 }
-
     
         article {
             padding:20px 30px 45px;
@@ -888,7 +880,6 @@ footer#pagination {
         color:#000;
     }
     
-
 footer section.share {
 height:25px;
 }
