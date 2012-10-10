@@ -149,10 +149,6 @@ aside#sidebar {
     width:200px;
 }
 
-    aside#sidebar a {
-        color:{color:SidebarLinks};
-        text-decoration:none;
-    }
     
     aside#sidebar a:hover {
         text-decoration:underline;
@@ -167,15 +163,6 @@ aside#sidebar section {
         padding-top:30px;
     }
 
-    aside#sidebar section h1,.profile-link {
-        color:{color:Headers};
-        font-family:'Cabin Sketch',"Arial Narrow";
-        font-size:1.286em;
-        font-weight:normal;
-        text-shadow:0 1px 2px #fff;
-        text-transform:uppercase;
-        filter:dropshadow(color=#fff,offX=0,offY=1);
-    }
     
     aside#sidebar section ul li {
         font-size:.786em;
@@ -293,11 +280,6 @@ section#search_results {
         margin-bottom:15px;
         margin-left:182px;
     }
-        
-        .back_to_blog a {
-            color:{color:Headers};
-            text-decoration:none;
-        }
         
         .fav_star {
             z-index:10;
@@ -462,36 +444,29 @@ section.share {
     width:700px;
 }
         
-
     div#articles {
     }
-    
-        .article-frame {
-            {block:Page}padding-left:115px;{Else}padding-left:180px;{/block:Page}
-            position:relative;
-            width:540px;
+        
+        .article-frame .meta {
+            font-size:.7em;
+            left:0;
+            position:absolute;
+            text-align:center;
+            filter:dropshadow(color:#fff,offX=1,offY=1);
+            top:7px;
+            left:50px;
+            width:110px;
+            height:110px;
+            border-radius:55px;  
+            -moz-border-radius:55px;  
+            -webkit-border-radius: 55px;
+            background-color: #36BBCE;
         }
         
-            .article-frame .meta {
-                font-size:.7em;
-                left:0;
-                position:absolute;
-                text-align:center;
-                filter:dropshadow(color:#fff,offX=1,offY=1);
-                top:7px;
-                left:50px;
-                width:110px;
-                height:110px;
-                border-radius:55px;  
-                -moz-border-radius:55px;  
-                -webkit-border-radius: 55px;
-                background-color: #36BBCE;
+            .article-frame .meta a {
+                color:#fff;
+                text-decoration:none;
             }
-            
-                .article-frame .meta a {
-                    color:#fff;
-                    text-decoration:none;
-                }
     
     .meta .day, .meta .month, .meta .year {
         display:block;
@@ -674,9 +649,6 @@ section.share {
                         padding-left:30px;
                     }
                 
-                .galleryLabel {
-                    color:{color:Body};
-                }
                     
                 blockquote {
                     border-left:solid 4px #c2b8b4 !important;
@@ -692,22 +664,6 @@ section.share {
             footer section {
                 margin-bottom:10px;
             }
-            
-                footer section.author {
-                    color:{color:PostInfo};
-                    font-size:.786em;
-                    padding-bottom:10px;
-                }
-                
-                    footer section.author a {
-                        color:{color:PostInfo} !important;
-                    }
-                
-                    footer section.author h1 {
-                        display:inline;
-                        font-size:1em;
-                        font-weight:normal;
-                    }
                     
         footer section.comments_box {
             border-top:solid 3px #d1c5be;
@@ -728,10 +684,6 @@ section.share {
                 font-style:italic;
                 font-weight:normal;
                 margin-top:5px;
-            }
-            
-            .commentunit .comment_value label {
-                color:{color:Body} !important;
             }
             
             footer section.comments section h1 {
@@ -795,9 +747,6 @@ section.share {
             
                 .comment_hide_button {display:none !important;}
             
-                div.comment_area a {
-                    color:{color:Body};
-                }
                 
                 footer section.comments h4 {
                 }
@@ -848,16 +797,6 @@ div.p_response_container header h1 {
   font-family: "Helvetica Neue",Arial,Helvetica;
 }
 
-footer section.tags {
-    color:{color:PostInfo};
-    font-size:.786em;
-    padding-bottom:10px;
-}
-    
-    footer section.tags a {
-        color:{color:PostInfo} !important;
-    }
-
     footer section.tags h1 {
         display:inline;
         font-size:11px;
@@ -880,9 +819,6 @@ footer section.tags {
         padding-right:10px;
     }
     
-    footer section.tags ul li a {
-        color:{color:Links};
-    }
     
     footer section.locations {
         margin-bottom:0;
@@ -939,15 +875,6 @@ footer#pagination {
         padding:3px;
         text-align:center;
     }
-
-    .pagination a {
-        background:rgba(255,255,255,.1);
-        border:solid 1px {color:Body};
-        color:{color:Body};
-        margin:2px;
-        padding:8px 8px;
-        text-decoration:none;
-    }
     
     .pagination span.disabled {
         border:solid 1px rgba(0,0,0,.25);
@@ -961,12 +888,6 @@ footer#pagination {
         color:#000;
     }
     
-    .pagination span.current {
-        color:{color:Body};
-        font-weight:bold;
-        padding:2px 5px;
-        margin:2px;
-    }
 
 footer section.share {
 height:25px;
