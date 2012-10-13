@@ -205,6 +205,11 @@ aside#sidebar section {
         padding-top:10px;
     }
 
+#myexternal {
+    padding-top:10px;
+    font-size: 30px;
+}
+
 #search {
     padding:15px 0;
 }
@@ -685,18 +690,15 @@ section.share {
                 font-weight:normal;
             }
 
-
             div.comment_label {
                 padding-top: 2px;
                 margin-top: 0px;
             }
             
-            
             div.comment_date {
             }
             
             div.commentunit {
-                /* margin: 10px 0px; */
             }
             
             .comment_profile_description {
@@ -723,7 +725,6 @@ section.share {
             }
 
             div.comment_loading_div {
-            /* margin-left:155px; */
             }
             
             div.comment_area {
@@ -849,11 +850,9 @@ div.p_response_container header h1 {
     
     footer section.share, footer section.tags, footer section.locations {
         display:block;
-        /* margin-left:155px; */
     }
 
 footer#pagination {
-    /* margin-left:155px; */
     overflow:hidden;
     padding:50px 0 50px 160px;
 }
@@ -945,7 +944,6 @@ margin-top:10px;
 }
 
 div.posterousListComments div.comment, div.posterousAddNewComment div.comment, div.posterousAddNewComment div.comment_value {
-/* margin-left:25px; */
 }
 
 section.private {
@@ -994,8 +992,7 @@ margin:0 0 10px;
 }
 
 div.p_like_failed {min-height:150px;}
-    
-/* my style */
+
 article h3 {
     padding:15px 0px 0px;
 }
