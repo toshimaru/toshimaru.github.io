@@ -342,11 +342,8 @@ text-decoration:none;
         background:url(/images/feed-icon-14x14.png) no-repeat -1px -1px;
     }
 
-section#statistics {
+section.statistics {
     font-size: 10px;
-}
-
-section#statistics strong {
 }
 
 section#tags ul {
