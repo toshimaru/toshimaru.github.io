@@ -207,17 +207,17 @@ aside#sidebar section {
     padding-top:10px;
 }
     #myexternal a {
-        font-size: 1.3em;
-        margin-right: 5px;
+        font-size: 3em;
+        margin-right: 8px;
     }
 
     #myexternal .mytwitter a:hover {
-        color: #039494;
+        color: #00DEF1;
         text-decoration: none;
     }
 
     #myexternal .mygithub a:hover {
-        color: #039494;
+        color: #FFA300;
         text-decoration: none;
     }
 
