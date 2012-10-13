@@ -208,13 +208,17 @@ aside#sidebar section {
 }
     #myexternal a {
         font-size: 1.3em;
-        text-decoration: none;
+        margin-right: 5px;
     }
 
     #myexternal .mytwitter a:hover {
+        color: #039494;
+        text-decoration: none;
     }
-    
+
     #myexternal .mygithub a:hover {
+        color: #039494;
+        text-decoration: none;
     }
 
 #search {
