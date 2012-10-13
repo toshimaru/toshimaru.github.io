@@ -204,22 +204,32 @@ aside#sidebar section {
     }
 
 #myexternal {
-    padding-top:10px;
+    padding-top:5px;
 }
     #myexternal a {
         font-size: 3em;
         margin-right: 8px;
     }
 
-    #myexternal .mytwitter a:hover {
-        color: #00DEF1;
+    #myexternal .mytwitter a {
+        color: #09C6D6;
         text-decoration: none;
     }
 
-    #myexternal .mygithub a:hover {
-        color: #FFA300;
+        #myexternal .mytwitter a:hover {
+            color: #09DEF1;
+            text-decoration: none;
+        }
+
+    #myexternal .mygithub a {
+        color: #E4993A;
         text-decoration: none;
     }
+
+        #myexternal .mygithub a:hover {
+            color: #FAAC49;
+            text-decoration: none;
+        }
 
 #search {
     padding:15px 0;
