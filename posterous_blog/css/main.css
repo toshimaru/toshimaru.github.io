@@ -149,7 +149,6 @@ aside#sidebar {
     width:200px;
 }
 
-    
     aside#sidebar a:hover {
         text-decoration:underline;
     }
@@ -160,10 +159,9 @@ aside#sidebar section {
 }
 
     aside section#profile {
-        padding-top:30px;
+        padding: 30px 0px 0px;
     }
 
-    
     aside#sidebar section ul li {
         font-size:.786em;
         list-style: none;
@@ -207,8 +205,17 @@ aside#sidebar section {
 
 #myexternal {
     padding-top:10px;
-    font-size: 30px;
 }
+    #myexternal a {
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+
+    #myexternal .mytwitter a:hover {
+    }
+    
+    #myexternal .mygithub a:hover {
+    }
 
 #search {
     padding:15px 0;
