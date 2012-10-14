@@ -23,8 +23,8 @@
     */
 @font-face {
   font-family: "FontAwesome";
-  src: url('//toshimaru.net/posterous_blog/font/fontawesome-webfont.eot');
-  src: url('//toshimaru.net/posterous_blog/font/fontawesome-webfont.eot?#iefix') format('eot'), url('//toshimaru.net/posterous_blog/font/fontawesome-webfont.woff') format('woff'), url('//toshimaru.net/posterous_blog/font/fontawesome-webfont.ttf') format('truetype'), url('//toshimaru.net/posterous_blog/font/fontawesome-webfont.svg#FontAwesome') format('svg');
+  src: url('http://toshimaru.net/posterous_blog/font/fontawesome-webfont.eot');
+  src: url('http://toshimaru.net/posterous_blog/font/fontawesome-webfont.eot?#iefix') format('eot'), url('http://toshimaru.net/posterous_blog/font/fontawesome-webfont.woff') format('woff'), url('http://toshimaru.net/posterous_blog/font/fontawesome-webfont.ttf') format('truetype'), url('http://toshimaru.net/posterous_blog/font/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
