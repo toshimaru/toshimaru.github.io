@@ -127,7 +127,7 @@ form.search input.text {
     font-size: 12px;
     padding: 2px 2px 2px 20px;
     border: 1px solid #ccc;
-    background:#fff url('/images/icons/search16.png') no-repeat 3px 3px;
+    background:#fff url('../images/icons/search16.png') no-repeat 3px 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -225,7 +225,7 @@ aside#sidebar section {
 }
 
     #searchbox {
-        background:url(/images/icons/search16.png) no-repeat 5px 5px #fff;
+        background:url('../images/icons/search16.png') no-repeat 5px 5px #fff;
         border: 1px solid #ccc;
         -moz-border-radius:4px;
         -webkit-border-radius:4px;
@@ -346,7 +346,7 @@ text-decoration:none;
     }
 
     section#subscriptions .subscribe-site {
-        background:url(/images/favicon.png) no-repeat -1px -1px;
+        background:url('../images/favicon.png') no-repeat -1px -1px;
     }
 
     section#subscriptions .subscribe-site div {
@@ -354,7 +354,7 @@ text-decoration:none;
     }
 
     section#rss a {
-        background:url(/images/feed-icon-14x14.png) no-repeat -1px -1px;
+        background:url('../images/feed-icon-14x14.png') no-repeat -1px -1px;
     }
 
 section.statistics {
@@ -898,7 +898,7 @@ margin-bottom:10px;
 }
 
     div.retweet {
-    background:url("/images/icons/services/twitter11.png") no-repeat scroll left center transparent;
+    background:url('../images/icons/services/twitter11.png') no-repeat scroll left center transparent;
     display:inline-block;
     min-height:11px;
     min-width:1px;
