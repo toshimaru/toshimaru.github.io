@@ -202,6 +202,10 @@ aside#sidebar section {
         font-size: 3em;
         margin-right: 8px;
     }
+    
+    #myexternal span {
+        display: block;
+    }
 
     #myexternal .mytwitter a {
         color: #09C6D6;
