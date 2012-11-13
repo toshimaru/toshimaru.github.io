@@ -27,6 +27,9 @@ img {border:0;}
 
 header,hgroup,footer,aside,nav,article,section,time {display:block;}
 
+::selection {background: #8CD1D8; }
+::-moz-selection {background: #8CD1D8; }
+
 .header-bg {
     left:0;
     height:192px;
