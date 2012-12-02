@@ -849,23 +849,33 @@ footer#pagination {
     overflow:hidden;
     padding:50px 0 50px 160px;
 }
-
     .pagination {
         margin:3px;
         padding:3px;
         text-align:center;
     }
-    
+    .pagination a , .pagination span{
+        color:#5A5A5A;
+        background: #E9E5DB;
+        border:1px solid #CFCFCF;
+        border-radius: 12px;
+        margin:2px;
+        padding:3px 6px;
+        text-decoration:none;
+    }
+    .pagination span.current {
+        font-weight:bold;
+        background: none;
+        border: none;
+    }
     .pagination span.disabled {
         border:solid 1px rgba(0,0,0,.25);
-        color:rgba(0,0,0,.25);
-        margin:2px;
-        padding:8px 8px;
+        color:#CFCFCF;
     }
-    
     .pagination a:hover, .pagination a:active {
-        border:solid 1px #000;
-        color:#000;
+        background:#EE32A2;
+        border:solid 1px #EE32A2;
+        color:#E9E5DB;
     }
     
 footer section.share {
@@ -992,3 +1002,4 @@ article h3 {
 #comment_body {
     background: #fff;
 }
+
