@@ -151,7 +151,7 @@ aside#sidebar section {
 }
 
     aside section#profile {
-        padding: 30px 0px 0px;
+        padding: 30px 0px 30px;
     }
 
     aside#sidebar section ul li {
@@ -197,34 +197,18 @@ aside#sidebar section {
 
 #myexternal {
     padding-top:5px;
+    font-size: 1.3em;
 }
-    #myexternal a {
-        font-size: 1.7em;
-    }
 
     #myexternal span {
         display: block;
+        float:left;
+        width:100px;
     }
 
-    #myexternal .mytwitter a {
-        color: #09C6D6;
-        text-decoration: none;
+    #myexternal a:hover {
+        color: #979797;
     }
-
-        #myexternal .mytwitter a:hover {
-            color: #09DEF1;
-            text-decoration: none;
-        }
-
-    #myexternal .mygithub a {
-        color: #E4993A;
-        text-decoration: none;
-    }
-
-        #myexternal .mygithub a:hover {
-            color: #FAAC49;
-            text-decoration: none;
-        }
 
 #search {
     padding:15px 0;
