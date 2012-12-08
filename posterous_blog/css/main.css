@@ -30,6 +30,13 @@ header,hgroup,footer,aside,nav,article,section,time {display:block;}
 ::selection {background: #8CD1D8; }
 ::-moz-selection {background: #8CD1D8; }
 
+body {
+    background-color:#F2F2F2;
+    background-image: url("../images/redox_01.png");
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    font-size:.875em;
+}
+
 .header-bg {
     left:0;
     height:192px;
@@ -856,9 +863,8 @@ footer#pagination {
     }
     .pagination a , .pagination span{
         color:#5A5A5A;
-        background: #E9E5DB;
+        background: #EEE;
         border:1px solid #CFCFCF;
-        border-radius: 12px;
         margin:2px;
         padding:3px 6px;
         text-decoration:none;
@@ -873,9 +879,8 @@ footer#pagination {
         color:#CFCFCF;
     }
     .pagination a:hover, .pagination a:active {
-        background:#EE32A2;
-        border:solid 1px #EE32A2;
-        color:#E9E5DB;
+        background:#CCC;
+        border:solid 1px #CCC;
     }
     
 footer section.share {
