@@ -39,7 +39,7 @@ body {
 
 pre {
     font-size: 14px;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
 
 .header-bg {
@@ -75,13 +75,13 @@ pre {
         font-family:inherit;
         font-size:1.714em;
         font-weight:normal;
-        line-height:1em;
+        line-height:1.3em;
         padding:5px 0 30px;
     }
     
-        header#page_header h1.header_image {
-            padding-left:160px;
-        }
+header#page_header h1.header_image {
+    padding-left:160px;
+}
 
 header#page_header hgroup {
     margin-left:-50px;
@@ -187,6 +187,13 @@ aside#sidebar section {
     aside#sidebar section div.archive_list div.inner {
       margin-left:10px;
       margin-bottom:7px;
+    }
+
+    aside#sidebar section h1, .profile-link {
+        font-size: 1.286em;
+        font-weight: normal;
+        text-shadow: 3px 3px 2px #A5A5A5;
+        text-transform: uppercase;
     }
     
     .profile_image {
@@ -551,11 +558,12 @@ section.share {
             }
             
         article div.body {
-            /* padding-top:10px; */
+             padding-top:5px; 
         }
         
             article div.body div.inner {
                 line-height:1.75em;
+                font-size: 1.1em;
             }
             
                 .inner iframe,.inner .posterous_video_main_div,.inner .posterousGalleryMainDiv,.inner img {
