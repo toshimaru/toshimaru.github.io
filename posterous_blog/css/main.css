@@ -54,7 +54,7 @@ pre {
     margin:0 auto;
     padding:0 20px 70px;
     position:relative;
-    width:960px;
+    width:940px;
     z-index:1;
 }
 
@@ -166,7 +166,7 @@ aside#sidebar section {
     }
 
     aside#sidebar section ul li {
-        font-size:.786em;
+        font-size:.7em;
         list-style: none;
         line-height:1.2em;
         padding:0 3px;
@@ -188,11 +188,14 @@ aside#sidebar section {
       margin-bottom:7px;
     }
 
-    aside#sidebar section h1, .profile-link {
-        font-size: 1.2em;
+    aside#sidebar section h1 {
+        font-family: 'Courier New','Terminal',monospace;
+        font-size: 1.3em;
         font-weight: normal;
         text-shadow: 3px 3px 2px #CCC;
-        text-transform: uppercase;
+        border-bottom: 2px dotted #CCC;
+        padding-bottom: 2px;
+        margin-bottom: 8px;
     }
     
     .profile_image {
@@ -327,10 +330,6 @@ text-decoration:none;
         font-size:.786em;    
     }
 
-        section#subscriptions h1 {
-            padding-bottom:5px;
-        }
-
     section#rss {
         padding-top:3px !important;
     }
@@ -364,6 +363,7 @@ section.statistics {
 }
 
 section#tags ul {
+    display: inline;
     line-height:1.75em;
 }
 
@@ -447,7 +447,7 @@ section.share {
 
 #post_column {
     float:left;
-    width:700px;
+    width:720px;
 }
         
     div#articles {
@@ -524,7 +524,7 @@ section.share {
                 }
     
         article {
-            padding:20px 30px 45px;
+            padding:20px 20px 45px;
             position:relative;
             width:500px;
         }
