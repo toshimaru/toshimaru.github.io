@@ -193,6 +193,7 @@ aside#sidebar section {
         font-size: 1.3em;
         font-weight: normal;
         text-shadow: 3px 3px 2px #CCC;
+        letter-spacing: .3em;
         border-bottom: 2px dotted #CCC;
         padding-bottom: 2px;
         margin-bottom: 8px;
@@ -370,7 +371,7 @@ section#tags ul {
     section#tags li {
         background:#FFD7F5;
         border-top:solid 1px rgba(255,255,255,.5);
-        border-bottom:solid 2px rgba(0,0,0,.3);
+        border-bottom:solid 2px #ccc;
         display:inline;
         border-radius: 8px;
     }
@@ -644,10 +645,11 @@ section.share {
                 }
                 
                 article div.body div.inner a {
-                    text-decoration:underline;
+                    text-decoration:none;
                 }
                 
                     article div.body div.inner a:hover {
+                        border-bottom: 1px dashed;
                     }
                     
                     article div.body div.inner ul,article div.body div.inner ol {
