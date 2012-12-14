@@ -42,6 +42,7 @@ body {
 pre, .gist .line_numbers {
     font-size: 14px;
     line-height: 1.5em;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 
 .header-bg {
