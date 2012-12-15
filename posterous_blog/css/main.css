@@ -33,16 +33,24 @@ blockquote:lang(ja) {
 ::-moz-selection {background: #8CD1D8; }
 
 body {
-    background-color:#F2F2F2;
-    background-image: url("../images/redox_01.png");
+    background:#F2F2F2 url("../images/redox_01.png");
     font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     font-size:.9em;
 }
+body:before { /* top shadow */ content: ""; position: absolute; top: -10px; left: -10px; width: 110%; height: 10px;  -webkit-box-shadow: 0px 0px 40px rgba(0,0,0,.5); -moz-box-shadow: 0px 0px 40px rgba(0,0,0,.5); -ms-box-shadow: 0px 0px 40px rgba(0,0,0,.5); -o-box-shadow: 0px 0px 40px rgba(0,0,0,.5); box-shadow: 0px 0px 40px rgba(0,0,0,.5);  z-index: 100; }
 
 pre, .gist .line_numbers {
     font-size: 14px;
     line-height: 1.5em;
     font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code {
+background-color: rgba(255, 196, 158, 0.5);
+border: 1px solid #FFC688;
+padding: 1px 4px;
+font-size: .8em;
+font-family: Consolas, "Liberation Mono", Courier, monospace;
 }
 
 .header-bg {
