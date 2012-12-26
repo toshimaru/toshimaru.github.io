@@ -990,6 +990,11 @@ text-align:left;
     color:white;
     }
 
+    .gist table {
+    margin:0;
+    font-size: 100%;
+    }
+
 hr {
 border:1px dashed #CCC;
 margin: 30px 0;
