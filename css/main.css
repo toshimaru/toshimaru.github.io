@@ -94,7 +94,7 @@ textarea {
     font-size: 1.5em;
     margin: 0 auto;
     padding: 0 10px;
-    width: 450px;
+    width: 350px;
     text-shadow:2px 2px #444;
 
     display: none;
@@ -102,6 +102,7 @@ textarea {
 
     #top h1 {
         margin: 0.5em 0;
+        text-align: center;
     }
 
 #profile {
@@ -110,8 +111,6 @@ textarea {
 
     #profile .pic {
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
     }
 
 #links {
@@ -119,7 +118,7 @@ textarea {
 }
 
     #links li {
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
 
     #links a {
@@ -131,6 +130,17 @@ textarea {
         text-decoration: underline;
     }
 
+
+@media only screen and (max-width: 480px) {
+    #profile {
+        float: none;
+        text-align: center;
+    }
+
+    #links {
+        margin-left: 0;
+    }
+}
 
 /* ==========================================================================
    Helper classes
