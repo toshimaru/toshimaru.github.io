@@ -13,11 +13,11 @@ textarea {
 }
 
 body {
-    color: #0f0;
+    color: #fff;
     font-size: 1em;
     font-family: 'Codystar', cursive;
     line-height: 1.4;
-    background-color: #000;
+    background-color: #DFDFDF;
 }
 
 /*
@@ -91,9 +91,12 @@ textarea {
    ========================================================================== */
 
 #top {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin: 0 auto;
+    padding: 0 10px;
     width: 450px;
+    text-shadow:2px 2px #444;
+
     display: none;
 }
 
@@ -112,8 +115,7 @@ textarea {
     }
 
 #links {
-    margin-left: 170px;
-    font-size: 80%;
+    margin-left: 160px;
 }
 
     #links li {
@@ -121,7 +123,7 @@ textarea {
     }
 
     #links a {
-        color: #0f0;
+        color: #fff;
         text-decoration: none;
     }
 
