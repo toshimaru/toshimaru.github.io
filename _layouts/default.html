@@ -3,6 +3,10 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
+  {% include header.html %}
+  <div id="contents">
     {{ content }}
+  </div>
+  {% include footer.html %}
   </body>
 </html>

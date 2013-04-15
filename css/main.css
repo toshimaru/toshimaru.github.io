@@ -1,10 +1,4 @@
-/*
- * HTML5 Boilerplate
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+@import url(http://fonts.googleapis.com/css?family=Codystar);
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -96,13 +90,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-#under_construction {
-    font-size: 7em;
-    text-align: center;
-    vertical-align:middle;
-    line-height: 1.5;
+#top {
+    font-size: 1.8em;
+    margin: 0 auto;
+    width: 450px;
+    display: none;
 }
+
+    #top h1 {
+        margin: 0.5em 0;
+    }
+
+#profile {
+    float: left;
+}
+
+    #profile .pic {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+
+#links {
+    margin-left: 170px;
+    font-size: 80%;
+}
+
+    #links li {
+        margin-bottom: 8px;
+    }
+
+    #links a {
+        color: #0f0;
+        text-decoration: none;
+    }
+
+    #links a:hover {
+        text-decoration: underline;
+    }
 
 
 /* ==========================================================================
