@@ -101,7 +101,7 @@ textarea {
 }
 
     #top h1 {
-        margin: 0.5em 0;
+        margin: 0.4em 0;
         text-align: center;
     }
 
@@ -119,8 +119,12 @@ textarea {
     margin-left: 160px;
 }
 
+    #links ul {
+        padding-left: 20px;
+    }
+
     #links li {
-        margin-bottom: 12px;
+        margin-bottom: 10px;
     }
 
     #links a {
