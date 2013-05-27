@@ -1,0 +1,105 @@
+<html>
+<head>
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" type="text/css" href="css/quizymemorygame.css" />
+  <style>
+    body{
+      font-family:Helvetica, Arial, Verdana;
+    }
+    
+    #tutorial-memorygame{
+      margin:auto;
+    }
+    
+    .text-style1{
+      font-size:14pt;
+      color:#56605f;
+      font-weight:normal;
+      text-shadow: 1px 1px 1px #fff;
+      margin:0;
+      line-height:24pt;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>Memory Card Game with <a href="http://quizyplugin.com/">Quizy Memory Game</a> </h1>
+
+  <div id="main" role="main">
+    <div id="tutorial-memorygame" class="quizy-memorygame">
+      <ul>
+          <li class="match1">
+            <br><br><br><p class="text-style1">Bulgaria</p>
+          </li>
+          <li class="match2">
+            <br><br><br><p class="text-style1">Cuba</p>
+          </li>
+          <li class="match3">
+            <br><br><br><p class="text-style1">Sweden</p>
+          </li>
+          <li class="match4">
+            <br><br><br><p class="text-style1">New<br>Zealand</p>
+          </li>
+          <li class="match5">
+            <br><br><br><p class="text-style1">Uruguay</p>
+          </li>
+          <li class="match6">
+            <br><br><br><p class="text-style1">Tunisia</p>
+          </li>
+          <li class="match7">
+            <br><br><br><p class="text-style1">Hoge</p>
+          </li>
+          <li class="match8">
+            <br><br><br><p class="text-style1">Toshi</p>
+          </li>
+          <li class="match9">
+            <br><br><br><p class="text-style1">Test</p>
+          </li>
+          <li class="match10">
+            <br><br><br><p class="text-style1">Love</p>
+          </li>
+          <li class="match1">
+            <br><br><br><p class="text-style1">Bulgaria</p>
+          </li>
+          <li class="match2">
+            <br><br><br><p class="text-style1">Cuba</p>
+          </li>
+          <li class="match3">
+            <br><br><br><p class="text-style1">Sweden</p>
+          </li>
+          <li class="match4">
+            <br><br><br><p class="text-style1">New<br>Zealand</p>
+          </li>
+          <li class="match5">
+            <br><br><br><p class="text-style1">Uruguay</p>
+          </li>
+          <li class="match6">
+            <br><br><br><p class="text-style1">Tunisia</p>
+          </li>
+          <li class="match7">
+            <br><br><br><p class="text-style1">Hoge</p>
+          </li>
+          <li class="match8">
+            <br><br><br><p class="text-style1">Toshi</p>
+          </li>
+          <li class="match9">
+            <br><br><br><p class="text-style1">Test</p>
+          </li>
+          <li class="match10">
+            <br><br><br><p class="text-style1">Love</p>
+          </li>
+      </ul>
+    </div>  
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+  <script src="js/jquery-ui-1.8.17.custom.min.js"></script>
+  <script src="js/jquery.flip.min.js"></script>
+  <script src="js/jquery.quizymemorygame.min.js"></script>
+  <script>
+    $('#tutorial-memorygame').quizyMemoryGame({itemWidth: 156, itemHeight: 156, itemsMargin:40, colCount:5, animType:'flip' , flipAnim:'tb', animSpeed:250, resultIcons:true });
+  </script>
+
+</body>
+</html>
