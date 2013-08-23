@@ -93,19 +93,43 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.l-content {
+    margin: 0 auto;
+}
 
+.information {
+    max-width: 980px;
+    margin: 0 auto;
+}
 
+.banner {
+    font-family: 'Poiret One', cursive;
+    display: table;
+    background: transparent url('../img/banner-bg.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 3em;
+}
 
+.banner-head {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    color: white;
+    text-shadow: 0 1px 1px black;
+}
 
+.top-fixed-menu {
+    background: #fff;
+    background: rgba(0,0,0,.3) !important;
+}
 
-
-
-
-
-
-
-
-
+.fixed-menu-selected a {
+    color: #fff;
+    text-shadow: 0 1px 1px black;
+}
 
 
 
