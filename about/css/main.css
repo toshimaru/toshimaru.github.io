@@ -97,6 +97,10 @@ textarea {
     margin: 0 auto;
 }
 
+.top-content {
+    margin-top: 100px;
+}
+
 .information {
     max-width: 980px;
     margin: 0 auto;
@@ -114,8 +118,7 @@ textarea {
 }
 
 .banner-head {
-    display: table-cell;
-    vertical-align: middle;
+    text-align: center;
     font-size: 3em;
     color: white;
     text-shadow: 0 1px 1px black;
@@ -131,6 +134,17 @@ textarea {
     text-shadow: 0 1px 1px black;
 }
 
+.picture {
+    float: left;
+}
+
+.picture img {
+    border-radius: 50%;
+}
+
+.top-intro p {
+    color: white;
+}
 
 
 /* ==========================================================================
@@ -321,4 +335,29 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/*
+ * Animation
+ */
+
+@-webkit-keyframes roll{
+    0% {-webkit-transform: translateX(500px) rotate(360deg);}
+    100% {-webkit-transform: translateX(0px) rotate(0deg);}
+}
+@-moz-keyframes roll{
+    0% {-moz-transform: translateX(500px) rotate(360deg); opacity: 0;}
+    100% {-moz-transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+@-o-keyframes roll{
+    0% {-o-transform: translateX(500px) rotate(360deg); opacity: 0;}
+    100% {-o-transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+@-ms-keyframes roll{
+    0% {-ms-transform: translateX(500px) rotate(360deg); opacity: 0;}
+    100% {-ms-transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+@keyframes roll{
+    0% {transform: translateX(500px) rotate(360deg); opacity: 0;}
+    100% {transform: translateX(0px) rotate(0deg); opacity: 1;}
 }
