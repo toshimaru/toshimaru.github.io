@@ -95,10 +95,12 @@ textarea {
 
 .l-content {
     margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .top-content {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .information {
@@ -112,9 +114,9 @@ textarea {
     background: transparent url('../img/banner-bg.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    height: 500px;
+    height: 470px;
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 0;
 }
 
 .banner-head {
@@ -153,8 +155,21 @@ textarea {
 h2 {
     text-align: center;
     font-size: 2em;
+    margin: 0.4em 0;
 }
 
+.work {
+    background-color: #FCFAE8;
+}
+
+.skill {
+    background-color: #FAFAFA;
+}
+
+.inner-box {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 /* ==========================================================================
    Helper classes
