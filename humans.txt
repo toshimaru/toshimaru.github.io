@@ -1,3 +1,8 @@
-# Toshimaru (toshi)
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+* toshimaru
+* Mail: me@toshimaru.net
+* Web: toshimaru.net
 * Twitter: @toshimaru_e
 * Github: toshimaru
