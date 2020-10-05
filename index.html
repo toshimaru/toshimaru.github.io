@@ -65,8 +65,7 @@
 </head>
 
 <body>
-  <amp-story standalone title="Joy of Pets" publisher="AMP tutorials"
-    publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-portrait-src="assets/cover.jpg">
+  <amp-story standalone title="Joy of Pets" publisher="AMP tutorials" publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-portrait-src="assets/cover.jpg">
     <amp-story-page id="cover">
       <amp-story-grid-layer template="fill">
         <amp-img src="assets/cover.jpg" width="720" height="1280" layout="responsive">
@@ -78,32 +77,21 @@
       </amp-story-grid-layer>
     </amp-story-page>
 
-    <!-- Page 1 (Cat): 1 layer (vertical) -->
     <amp-story-page id="page1">
       <amp-story-grid-layer template="vertical">
-        <h1>Cats</h1>
-        <amp-img src="assets/cat.jpg" width="720" height="1280" layout="responsive">
-        </amp-img>
-        <q>Dogs come when they're called. Cats take a message and get back to you. --Mary Bly</q>
+        <amp-img src="https://avatars3.githubusercontent.com/u/803398?s=500" width="500" height="500" layout="responsive"></amp-img>
+        <h1>Toshimaru</h1>
+        <ul>
+          <li animate-in="whoosh-in-right">Twitter</li>
+          <li animate-in="whoosh-in-right">GitHub</li>
+          <li animate-in="whoosh-in-right">GitHub</li>
+          <li animate-in="whoosh-in-right">GitHub</li>
+          <li animate-in="whoosh-in-right">GitHub</li>
+        </ul>
       </amp-story-grid-layer>
     </amp-story-page>
 
-    <!-- Page 2 (Dog): 2 layers (fill + thirds) -->
     <amp-story-page id="page2">
-      <amp-story-grid-layer template="fill">
-        <amp-img src="assets/dog.jpg" width="720" height="1280" layout="responsive">
-        </amp-img>
-      </amp-story-grid-layer>
-      <amp-story-grid-layer template="thirds">
-        <h1 grid-area="upper-third">Dogs</h1>
-        <p grid-area="lower-third">Dogs were probably the first tame animals. They have accompanied humans for some
-          10,000 years. Some scientists assert that all dogs, domestic and wild, share a common ancestor in the small
-          South Asian wolf.</p>
-      </amp-story-grid-layer>
-    </amp-story-page>
-
-    <!-- Page 5 (Collage): 2 layers + animations -->
-    <amp-story-page id="page5">
       <amp-story-grid-layer template="vertical" class="noedge">
         <div class="wrapper">
           <amp-img src="assets/cat.jpg" width="720" height="1280" layout="responsive" animate-in="fade-in"
