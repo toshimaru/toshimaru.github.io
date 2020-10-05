@@ -21,61 +21,37 @@
       background-color: #fff;
     }
 
+    amp-img {
+      border-radius: 50%;
+    }
+
     h1 {
       font-weight: bold;
-      font-size: 2.875em;
+      font-size: 1.8em;
       font-weight: normal;
-      line-height: 1.174;
     }
 
-    p {
-      font-weight: normal;
+    ul {
       font-size: 1.3em;
-      line-height: 1.5em;
     }
 
-    q {
-      font-weight: 300;
-      font-size: 1.1em;
-    }
-
-    amp-story-grid-layer.bottom {
-      align-content: end;
-    }
-
-    amp-story-grid-layer.noedge {
-      padding: 0px;
-    }
-
-    amp-story-grid-layer.center-text {
-      align-content: center;
-    }
-
-    .wrapper {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 50% 50%;
-    }
-
-    .banner-text {
-      text-align: center;
-      line-height: 2em;
+    li {
+      margin-bottom: 5px;
     }
   </style>
 </head>
 
 <body>
-  <amp-story standalone title="Joy of Pets" publisher="AMP tutorials" publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-portrait-src="assets/cover.jpg">
+  <amp-story standalone title="Joy of Pets" publisher="AMP tutorials" publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-portrait-src="img/profile2.png">
     <amp-story-page id="cover">
-        <amp-story-grid-layer template="vertical">
-        <amp-img src="https://avatars3.githubusercontent.com/u/803398?s=500" width="500" height="500" layout="responsive"></amp-img>
-        <h1 animate-in="whoosh-in-right">Toshimaru</h1>
+      <amp-story-grid-layer template="vertical">
+        <amp-img src="https://avatars3.githubusercontent.com/u/803398?s=500" width="500" height="500" layout="intrinsic" animate-in="drop"></amp-img>
+        <h1 animate-in="fade-in">Toshimaru</h1>
         <ul>
-          <li animate-in="whoosh-in-right" animate-in-delay="0.4s">Twitter</li>
-          <li animate-in="whoosh-in-right" animate-in-delay="0.8s">GitHub</li>
-          <li animate-in="whoosh-in-right" animate-in-delay="1.2s">GitHub</li>
-          <li animate-in="whoosh-in-right" animate-in-delay="1.6s">GitHub</li>
-          <li animate-in="whoosh-in-right" animate-in-delay="2.0s">GitHub</li>
+          <li animate-in="whoosh-in-right" animate-in-delay="0.3s"><a href="https://blog.toshimaru.net/">Blog</a></li>
+          <li animate-in="whoosh-in-right" animate-in-delay="0.6s"><a href="https://blog.toshima.ru/">English Blog</a></li>
+          <li animate-in="whoosh-in-right" animate-in-delay="0.9s"><a href="https://github.com/toshimaru">Github</a></li>
+          <li animate-in="whoosh-in-right" animate-in-delay="1.2s"><a href="https://twitter.com/toshimaru_e">Twitter</a></li>
         </ul>
       </amp-story-grid-layer>
     </amp-story-page>
